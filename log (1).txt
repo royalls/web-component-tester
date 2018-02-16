@@ -1,0 +1,1037 @@
+[00:00:00] Build started
+[00:00:00] git clone -q --branch=master https://github.com/Polymer/polymer-cli.git C:\projects\polymer-cli
+[00:00:02] git checkout -qf cd8d9ee21d819bd27e6d40d81d4ad4b8eac7b6e2
+[00:00:03] Running Install scripts
+[00:00:03] Install-Product node $env:nodejs_version
+[00:00:03] Uninstalling node 4.8.7 (x86)...
+[00:00:03] Installing node 6.9.1 (x86)...
+[00:00:03] npm install -g npm
+[00:00:32] C:\Users\appveyor\AppData\Roaming\npm\npm -> C:\Users\appveyor\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+[00:00:32] C:\Users\appveyor\AppData\Roaming\npm\npx -> C:\Users\appveyor\AppData\Roaming\npm\node_modules\npm\bin\npx-cli.js
+[00:00:38] C:\Users\appveyor\AppData\Roaming\npm
+[00:00:38] `-- npm@5.6.0 
+[00:00:38]   +-- abbrev@1.1.1 
+[00:00:38]   +-- ansi-regex@3.0.0 
+[00:00:38]   +-- ansicolors@0.3.2 
+[00:00:38]   +-- ansistyles@0.1.3 
+[00:00:38]   +-- aproba@1.2.0 
+[00:00:38]   +-- archy@1.0.0 
+[00:00:38]   +-- bin-links@1.1.0 
+[00:00:38]   +-- bluebird@3.5.1 
+[00:00:38]   +-- cacache@10.0.1 
+[00:00:38]   | +-- ssri@5.0.0 
+[00:00:38]   | `-- y18n@3.2.1 
+[00:00:38]   +-- call-limit@1.1.0 
+[00:00:38]   +-- chownr@1.0.1 
+[00:00:38]   +-- cli-table2@0.2.0 
+[00:00:38]   | +-- colors@1.1.2 
+[00:00:38]   | +-- lodash@3.10.1 
+[00:00:38]   | `-- string-width@1.0.2 
+[00:00:38]   |   +-- code-point-at@1.1.0 
+[00:00:38]   |   +-- is-fullwidth-code-point@1.0.0 
+[00:00:38]   |   | `-- number-is-nan@1.0.1 
+[00:00:38]   |   `-- strip-ansi@3.0.1 
+[00:00:38]   |     `-- ansi-regex@2.1.1 
+[00:00:38]   +-- cmd-shim@2.0.2 
+[00:00:38]   +-- columnify@1.5.4 
+[00:00:38]   | +-- strip-ansi@3.0.1 
+[00:00:38]   | | `-- ansi-regex@2.1.1 
+[00:00:38]   | `-- wcwidth@1.0.1 
+[00:00:38]   |   `-- defaults@1.0.3 
+[00:00:38]   |     `-- clone@1.0.2 
+[00:00:38]   +-- config-chain@1.1.11 
+[00:00:38]   | `-- proto-list@1.2.4 
+[00:00:38]   +-- debuglog@1.0.1 
+[00:00:38]   +-- detect-indent@5.0.0 
+[00:00:38]   +-- dezalgo@1.0.3 
+[00:00:38]   | `-- asap@2.0.5 
+[00:00:38]   +-- editor@1.0.0 
+[00:00:38]   +-- find-npm-prefix@1.0.1 
+[00:00:38]   +-- fs-vacuum@1.2.10 
+[00:00:38]   +-- fs-write-stream-atomic@1.0.10 
+[00:00:38]   +-- gentle-fs@2.0.1 
+[00:00:38]   +-- glob@7.1.2 
+[00:00:38]   | +-- fs.realpath@1.0.0 
+[00:00:38]   | +-- minimatch@3.0.4 
+[00:00:38]   | | `-- brace-expansion@1.1.8 
+[00:00:38]   | |   +-- balanced-match@1.0.0 
+[00:00:38]   | |   `-- concat-map@0.0.1 
+[00:00:38]   | `-- path-is-absolute@1.0.1 
+[00:00:38]   +-- graceful-fs@4.1.11 
+[00:00:38]   +-- has-unicode@2.0.1 
+[00:00:38]   +-- hosted-git-info@2.5.0 
+[00:00:38]   +-- iferr@0.1.5 
+[00:00:38]   +-- imurmurhash@0.1.4 
+[00:00:38]   +-- inflight@1.0.6 
+[00:00:38]   +-- inherits@2.0.3 
+[00:00:38]   +-- ini@1.3.4 
+[00:00:38]   +-- init-package-json@1.10.1 
+[00:00:38]   | +-- npm-package-arg@5.1.2 
+[00:00:38]   | `-- promzard@0.3.0 
+[00:00:38]   +-- is-cidr@1.0.0 
+[00:00:38]   | `-- cidr-regex@1.0.6 
+[00:00:38]   +-- JSONStream@1.3.1 
+[00:00:38]   | +-- jsonparse@1.3.1 
+[00:00:38]   | `-- through@2.3.8 
+[00:00:38]   +-- lazy-property@1.0.0 
+[00:00:38]   +-- libnpx@9.7.1 
+[00:00:38]   | +-- dotenv@4.0.0 
+[00:00:38]   | +-- npm-package-arg@5.1.2 
+[00:00:38]   | +-- y18n@3.2.1 
+[00:00:38]   | `-- yargs@8.0.2 
+[00:00:38]   |   +-- camelcase@4.1.0 
+[00:00:38]   |   +-- cliui@3.2.0 
+[00:00:38]   |   | +-- string-width@1.0.2 
+[00:00:38]   |   | | +-- code-point-at@1.1.0 
+[00:00:38]   |   | | `-- is-fullwidth-code-point@1.0.0 
+[00:00:38]   |   | |   `-- number-is-nan@1.0.1 
+[00:00:38]   |   | +-- strip-ansi@3.0.1 
+[00:00:38]   |   | | `-- ansi-regex@2.1.1 
+[00:00:38]   |   | `-- wrap-ansi@2.1.0 
+[00:00:38]   |   +-- decamelize@1.2.0 
+[00:00:38]   |   +-- get-caller-file@1.0.2 
+[00:00:38]   |   +-- os-locale@2.1.0 
+[00:00:38]   |   | +-- execa@0.7.0 
+[00:00:38]   |   | | +-- cross-spawn@5.1.0 
+[00:00:38]   |   | | | `-- shebang-command@1.2.0 
+[00:00:38]   |   | | |   `-- shebang-regex@1.0.0 
+[00:00:38]   |   | | +-- get-stream@3.0.0 
+[00:00:38]   |   | | +-- is-stream@1.1.0 
+[00:00:38]   |   | | +-- npm-run-path@2.0.2 
+[00:00:38]   |   | | | `-- path-key@2.0.1 
+[00:00:38]   |   | | +-- p-finally@1.0.0 
+[00:00:38]   |   | | +-- signal-exit@3.0.2 
+[00:00:38]   |   | | `-- strip-eof@1.0.0 
+[00:00:38]   |   | +-- lcid@1.0.0 
+[00:00:38]   |   | | `-- invert-kv@1.0.0 
+[00:00:38]   |   | `-- mem@1.1.0 
+[00:00:38]   |   |   `-- mimic-fn@1.1.0 
+[00:00:38]   |   +-- read-pkg-up@2.0.0 
+[00:00:38]   |   | +-- find-up@2.1.0 
+[00:00:38]   |   | | `-- locate-path@2.0.0 
+[00:00:38]   |   | |   +-- p-locate@2.0.0 
+[00:00:38]   |   | |   | `-- p-limit@1.1.0 
+[00:00:38]   |   | |   `-- path-exists@3.0.0 
+[00:00:38]   |   | `-- read-pkg@2.0.0 
+[00:00:38]   |   |   +-- load-json-file@2.0.0 
+[00:00:38]   |   |   | +-- parse-json@2.2.0 
+[00:00:38]   |   |   | | `-- error-ex@1.3.1 
+[00:00:38]   |   |   | |   `-- is-arrayish@0.2.1 
+[00:00:38]   |   |   | +-- pify@2.3.0 
+[00:00:38]   |   |   | `-- strip-bom@3.0.0 
+[00:00:38]   |   |   `-- path-type@2.0.0 
+[00:00:38]   |   |     `-- pify@2.3.0 
+[00:00:38]   |   +-- require-directory@2.1.1 
+[00:00:38]   |   +-- require-main-filename@1.0.1 
+[00:00:38]   |   +-- set-blocking@2.0.0 
+[00:00:38]   |   +-- string-width@2.1.1 
+[00:00:38]   |   | `-- is-fullwidth-code-point@2.0.0 
+[00:00:38]   |   +-- which-module@2.0.0 
+[00:00:38]   |   `-- yargs-parser@7.0.0 
+[00:00:38]   +-- lockfile@1.0.3 
+[00:00:38]   +-- lodash._baseindexof@3.1.0 
+[00:00:38]   +-- lodash._baseuniq@4.6.0 
+[00:00:38]   | +-- lodash._createset@4.0.3 
+[00:00:38]   | `-- lodash._root@3.0.1 
+[00:00:38]   +-- lodash._bindcallback@3.0.1 
+[00:00:38]   +-- lodash._cacheindexof@3.0.2 
+[00:00:38]   +-- lodash._createcache@3.1.2 
+[00:00:38]   +-- lodash._getnative@3.9.1 
+[00:00:38]   +-- lodash.clonedeep@4.5.0 
+[00:00:38]   +-- lodash.restparam@3.6.1 
+[00:00:38]   +-- lodash.union@4.6.0 
+[00:00:38]   +-- lodash.uniq@4.5.0 
+[00:00:38]   +-- lodash.without@4.4.0 
+[00:00:38]   +-- lru-cache@4.1.1 
+[00:00:38]   | +-- pseudomap@1.0.2 
+[00:00:38]   | `-- yallist@2.1.2 
+[00:00:38]   +-- meant@1.0.1 
+[00:00:38]   +-- mississippi@1.3.0 
+[00:00:38]   | +-- concat-stream@1.6.0 
+[00:00:38]   | | `-- typedarray@0.0.6 
+[00:00:38]   | +-- duplexify@3.5.0 
+[00:00:38]   | | +-- end-of-stream@1.0.0 
+[00:00:38]   | | | `-- once@1.3.3 
+[00:00:38]   | | `-- stream-shift@1.0.0 
+[00:00:38]   | +-- end-of-stream@1.4.0 
+[00:00:38]   | +-- flush-write-stream@1.0.2 
+[00:00:38]   | +-- from2@2.3.0 
+[00:00:38]   | +-- parallel-transform@1.1.0 
+[00:00:38]   | | `-- cyclist@0.2.2 
+[00:00:38]   | +-- pump@1.0.2 
+[00:00:38]   | +-- pumpify@1.3.5 
+[00:00:38]   | +-- stream-each@1.2.0 
+[00:00:38]   | | `-- stream-shift@1.0.0 
+[00:00:38]   | `-- through2@2.0.3 
+[00:00:38]   |   `-- xtend@4.0.1 
+[00:00:38]   +-- mkdirp@0.5.1 
+[00:00:38]   | `-- minimist@0.0.8 
+[00:00:38]   +-- move-concurrently@1.0.1 
+[00:00:38]   | +-- copy-concurrently@1.0.5 
+[00:00:38]   | `-- run-queue@1.0.3 
+[00:00:38]   +-- nopt@4.0.1 
+[00:00:38]   +-- normalize-package-data@2.4.0 
+[00:00:38]   | `-- is-builtin-module@1.0.0 
+[00:00:38]   |   `-- builtin-modules@1.1.1 
+[00:00:38]   +-- npm-cache-filename@1.0.2 
+[00:00:38]   +-- npm-install-checks@3.0.0 
+[00:00:38]   +-- npm-lifecycle@2.0.0 
+[00:00:38]   | +-- byline@5.0.0 
+[00:00:38]   | +-- node-gyp@3.6.2 
+[00:00:38]   | | +-- fstream@1.0.11 
+[00:00:38]   | | +-- minimatch@3.0.4 
+[00:00:38]   | | | `-- brace-expansion@1.1.8 
+[00:00:38]   | | |   +-- balanced-match@1.0.0 
+[00:00:38]   | | |   `-- concat-map@0.0.1 
+[00:00:38]   | | +-- nopt@3.0.6 
+[00:00:38]   | | +-- semver@5.3.0 
+[00:00:38]   | | `-- tar@2.2.1 
+[00:00:38]   | |   `-- block-stream@0.0.9 
+[00:00:38]   | `-- resolve-from@4.0.0 
+[00:00:38]   +-- npm-package-arg@6.0.0 
+[00:00:38]   +-- npm-packlist@1.1.10 
+[00:00:38]   | +-- ignore-walk@3.0.1 
+[00:00:38]   | | `-- minimatch@3.0.4 
+[00:00:38]   | |   `-- brace-expansion@1.1.8 
+[00:00:38]   | |     +-- balanced-match@1.0.0 
+[00:00:38]   | |     `-- concat-map@0.0.1 
+[00:00:38]   | `-- npm-bundled@1.0.3 
+[00:00:38]   +-- npm-profile@2.0.5 
+[00:00:38]   | `-- make-fetch-happen@2.5.0 
+[00:00:38]   |   +-- agentkeepalive@3.3.0 
+[00:00:38]   |   | `-- humanize-ms@1.2.1 
+[00:00:38]   |   |   `-- ms@2.0.0 
+[00:00:38]   |   +-- cacache@9.3.0 
+[00:00:38]   |   | `-- y18n@3.2.1 
+[00:00:38]   |   +-- http-cache-semantics@3.8.0 
+[00:00:38]   |   +-- http-proxy-agent@2.0.0 
+[00:00:38]   |   | +-- agent-base@4.1.1 
+[00:00:38]   |   | | `-- es6-promisify@5.0.0 
+[00:00:38]   |   | |   `-- es6-promise@4.1.1 
+[00:00:38]   |   | `-- debug@2.6.9 
+[00:00:38]   |   |   `-- ms@2.0.0 
+[00:00:38]   |   +-- https-proxy-agent@2.1.0 
+[00:00:38]   |   | +-- agent-base@4.1.1 
+[00:00:38]   |   | | `-- es6-promisify@5.0.0 
+[00:00:38]   |   | |   `-- es6-promise@4.1.1 
+[00:00:38]   |   | `-- debug@2.6.9 
+[00:00:38]   |   |   `-- ms@2.0.0 
+[00:00:38]   |   +-- node-fetch-npm@2.0.2 
+[00:00:38]   |   | +-- encoding@0.1.12 
+[00:00:38]   |   | | `-- iconv-lite@0.4.19 
+[00:00:38]   |   | `-- json-parse-better-errors@1.0.1 
+[00:00:38]   |   +-- promise-retry@1.1.1 
+[00:00:38]   |   | `-- err-code@1.1.2 
+[00:00:38]   |   +-- socks-proxy-agent@3.0.1 
+[00:00:38]   |   | +-- agent-base@4.1.1 
+[00:00:38]   |   | | `-- es6-promisify@5.0.0 
+[00:00:38]   |   | |   `-- es6-promise@4.1.1 
+[00:00:38]   |   | `-- socks@1.1.10 
+[00:00:38]   |   |   +-- ip@1.1.5 
+[00:00:38]   |   |   `-- smart-buffer@1.1.15 
+[00:00:38]   |   `-- ssri@4.1.6 
+[00:00:38]   +-- npm-registry-client@8.5.0 
+[00:00:38]   | +-- concat-stream@1.6.0 
+[00:00:38]   | | `-- typedarray@0.0.6 
+[00:00:38]   | +-- npm-package-arg@5.1.2 
+[00:00:38]   | `-- ssri@4.1.6 
+[00:00:38]   +-- npm-user-validate@1.0.0 
+[00:00:38]   +-- npmlog@4.1.2 
+[00:00:38]   | +-- are-we-there-yet@1.1.4 
+[00:00:38]   | | `-- delegates@1.0.0 
+[00:00:38]   | +-- console-control-strings@1.1.0 
+[00:00:38]   | +-- gauge@2.7.4 
+[00:00:38]   | | +-- object-assign@4.1.1 
+[00:00:38]   | | +-- signal-exit@3.0.2 
+[00:00:38]   | | +-- string-width@1.0.2 
+[00:00:38]   | | | +-- code-point-at@1.1.0 
+[00:00:38]   | | | `-- is-fullwidth-code-point@1.0.0 
+[00:00:38]   | | |   `-- number-is-nan@1.0.1 
+[00:00:38]   | | +-- strip-ansi@3.0.1 
+[00:00:38]   | | | `-- ansi-regex@2.1.1 
+[00:00:38]   | | `-- wide-align@1.1.2 
+[00:00:38]   | `-- set-blocking@2.0.0 
+[00:00:38]   +-- once@1.4.0 
+[00:00:38]   +-- opener@1.4.3 
+[00:00:38]   +-- osenv@0.1.4 
+[00:00:38]   | +-- os-homedir@1.0.2 
+[00:00:38]   | `-- os-tmpdir@1.0.2 
+[00:00:38]   +-- pacote@7.0.2 
+[00:00:38]   | +-- get-stream@3.0.0 
+[00:00:38]   | +-- make-fetch-happen@2.6.0 
+[00:00:38]   | | +-- agentkeepalive@3.3.0 
+[00:00:38]   | | | `-- humanize-ms@1.2.1 
+[00:00:38]   | | |   `-- ms@2.0.0 
+[00:00:38]   | | +-- http-cache-semantics@3.8.0 
+[00:00:38]   | | +-- http-proxy-agent@2.0.0 
+[00:00:38]   | | | +-- agent-base@4.1.2 
+[00:00:38]   | | | | `-- es6-promisify@5.0.0 
+[00:00:38]   | | | |   `-- es6-promise@4.1.1 
+[00:00:38]   | | | `-- debug@2.6.9 
+[00:00:38]   | | |   `-- ms@2.0.0 
+[00:00:38]   | | +-- https-proxy-agent@2.1.0 
+[00:00:38]   | | | +-- agent-base@4.1.2 
+[00:00:38]   | | | | `-- es6-promisify@5.0.0 
+[00:00:38]   | | | |   `-- es6-promise@4.1.1 
+[00:00:38]   | | | `-- debug@2.6.9 
+[00:00:38]   | | |   `-- ms@2.0.0 
+[00:00:38]   | | +-- node-fetch-npm@2.0.2 
+[00:00:38]   | | | +-- encoding@0.1.12 
+[00:00:38]   | | | | `-- iconv-lite@0.4.19 
+[00:00:38]   | | | `-- json-parse-better-errors@1.0.1 
+[00:00:38]   | | `-- socks-proxy-agent@3.0.1 
+[00:00:38]   | |   +-- agent-base@4.1.2 
+[00:00:38]   | |   | `-- es6-promisify@5.0.0 
+[00:00:38]   | |   |   `-- es6-promise@4.1.1 
+[00:00:38]   | |   `-- socks@1.1.10 
+[00:00:38]   | |     +-- ip@1.1.5 
+[00:00:38]   | |     `-- smart-buffer@1.1.15 
+[00:00:38]   | +-- minimatch@3.0.4 
+[00:00:38]   | | `-- brace-expansion@1.1.8 
+[00:00:38]   | |   +-- balanced-match@1.0.0 
+[00:00:38]   | |   `-- concat-map@0.0.1 
+[00:00:38]   | +-- npm-pick-manifest@2.1.0 
+[00:00:38]   | +-- promise-retry@1.1.1 
+[00:00:38]   | | `-- err-code@1.1.2 
+[00:00:38]   | `-- protoduck@4.0.0 
+[00:00:38]   |   `-- genfun@4.0.1 
+[00:00:38]   +-- path-is-inside@1.0.2 
+[00:00:38]   +-- promise-inflight@1.0.1 
+[00:00:38]   +-- qrcode-terminal@0.11.0 
+[00:00:38]   +-- query-string@5.0.1 
+[00:00:38]   | +-- decode-uri-component@0.2.0 
+[00:00:38]   | +-- object-assign@4.1.1 
+[00:00:38]   | `-- strict-uri-encode@1.1.0 
+[00:00:38]   +-- qw@1.0.1 
+[00:00:38]   +-- read@1.0.7 
+[00:00:38]   | `-- mute-stream@0.0.7 
+[00:00:38]   +-- read-cmd-shim@1.0.1 
+[00:00:38]   +-- read-installed@4.0.3 
+[00:00:38]   | `-- util-extend@1.0.3 
+[00:00:38]   +-- read-package-json@2.0.12 
+[00:00:38]   | +-- json-parse-better-errors@1.0.1 
+[00:00:38]   | `-- slash@1.0.0 
+[00:00:38]   +-- read-package-tree@5.1.6 
+[00:00:38]   +-- readable-stream@2.3.3 
+[00:00:38]   | +-- core-util-is@1.0.2 
+[00:00:38]   | +-- isarray@1.0.0 
+[00:00:38]   | +-- process-nextick-args@1.0.7 
+[00:00:38]   | +-- string_decoder@1.0.3 
+[00:00:38]   | `-- util-deprecate@1.0.2 
+[00:00:38]   +-- readdir-scoped-modules@1.0.2 
+[00:00:38]   +-- request@2.83.0 
+[00:00:38]   | +-- aws-sign2@0.7.0 
+[00:00:38]   | +-- aws4@1.6.0 
+[00:00:38]   | +-- caseless@0.12.0 
+[00:00:38]   | +-- combined-stream@1.0.5 
+[00:00:38]   | | `-- delayed-stream@1.0.0 
+[00:00:38]   | +-- extend@3.0.1 
+[00:00:38]   | +-- forever-agent@0.6.1 
+[00:00:38]   | +-- form-data@2.3.1 
+[00:00:38]   | | `-- asynckit@0.4.0 
+[00:00:38]   | +-- har-validator@5.0.3 
+[00:00:38]   | | +-- ajv@5.2.3 
+[00:00:38]   | | | +-- co@4.6.0 
+[00:00:38]   | | | +-- fast-deep-equal@1.0.0 
+[00:00:38]   | | | +-- json-schema-traverse@0.3.1 
+[00:00:38]   | | | `-- json-stable-stringify@1.0.1 
+[00:00:38]   | | |   `-- jsonify@0.0.0 
+[00:00:38]   | | `-- har-schema@2.0.0 
+[00:00:38]   | +-- hawk@6.0.2 
+[00:00:38]   | | +-- boom@4.3.1 
+[00:00:38]   | | +-- cryptiles@3.1.2 
+[00:00:38]   | | | `-- boom@5.2.0 
+[00:00:38]   | | +-- hoek@4.2.0 
+[00:00:38]   | | `-- sntp@2.0.2 
+[00:00:38]   | +-- http-signature@1.2.0 
+[00:00:38]   | | +-- assert-plus@1.0.0 
+[00:00:38]   | | +-- jsprim@1.4.1 
+[00:00:38]   | | | +-- extsprintf@1.3.0 
+[00:00:38]   | | | +-- json-schema@0.2.3 
+[00:00:38]   | | | `-- verror@1.10.0 
+[00:00:38]   | | |   `-- core-util-is@1.0.2 
+[00:00:38]   | | `-- sshpk@1.13.1 
+[00:00:38]   | |   +-- asn1@0.2.3 
+[00:00:38]   | |   +-- bcrypt-pbkdf@1.0.1 
+[00:00:38]   | |   +-- dashdash@1.14.1 
+[00:00:38]   | |   +-- ecc-jsbn@0.1.1 
+[00:00:38]   | |   +-- getpass@0.1.7 
+[00:00:38]   | |   +-- jsbn@0.1.1 
+[00:00:38]   | |   `-- tweetnacl@0.14.5 
+[00:00:38]   | +-- is-typedarray@1.0.0 
+[00:00:38]   | +-- isstream@0.1.2 
+[00:00:38]   | +-- json-stringify-safe@5.0.1 
+[00:00:38]   | +-- mime-types@2.1.17 
+[00:00:38]   | | `-- mime-db@1.30.0 
+[00:00:38]   | +-- oauth-sign@0.8.2 
+[00:00:38]   | +-- performance-now@2.1.0 
+[00:00:38]   | +-- qs@6.5.1 
+[00:00:38]   | +-- stringstream@0.0.5 
+[00:00:38]   | +-- tough-cookie@2.3.3 
+[00:00:38]   | | `-- punycode@1.4.1 
+[00:00:38]   | `-- tunnel-agent@0.6.0 
+[00:00:38]   +-- retry@0.10.1 
+[00:00:38]   +-- rimraf@2.6.2 
+[00:00:38]   +-- safe-buffer@5.1.1 
+[00:00:38]   +-- semver@5.4.1 
+[00:00:38]   +-- sha@2.0.1 
+[00:00:38]   +-- slide@1.1.6 
+[00:00:38]   +-- sorted-object@2.0.1 
+[00:00:38]   +-- sorted-union-stream@2.1.3 
+[00:00:38]   | +-- from2@1.3.0 
+[00:00:38]   | | `-- readable-stream@1.1.14 
+[00:00:38]   | |   +-- core-util-is@1.0.2 
+[00:00:38]   | |   +-- isarray@0.0.1 
+[00:00:38]   | |   `-- string_decoder@0.10.31 
+[00:00:38]   | `-- stream-iterate@1.2.0 
+[00:00:38]   |   `-- stream-shift@1.0.0 
+[00:00:38]   +-- ssri@5.0.0 
+[00:00:38]   +-- strip-ansi@4.0.0 
+[00:00:38]   | `-- ansi-regex@3.0.0 
+[00:00:38]   +-- tar@4.0.2 
+[00:00:38]   | +-- minipass@2.2.1 
+[00:00:38]   | +-- minizlib@1.0.4 
+[00:00:38]   | `-- yallist@3.0.2 
+[00:00:38]   +-- text-table@0.2.0 
+[00:00:38]   +-- uid-number@0.0.6 
+[00:00:38]   +-- umask@1.1.0 
+[00:00:38]   +-- unique-filename@1.1.0 
+[00:00:38]   | `-- unique-slug@2.0.0 
+[00:00:38]   +-- unpipe@1.0.0 
+[00:00:38]   +-- update-notifier@2.3.0 
+[00:00:38]   | +-- boxen@1.2.1 
+[00:00:38]   | | +-- ansi-align@2.0.0 
+[00:00:38]   | | +-- camelcase@4.1.0 
+[00:00:38]   | | +-- cli-boxes@1.0.0 
+[00:00:38]   | | +-- string-width@2.1.1 
+[00:00:38]   | | | `-- is-fullwidth-code-point@2.0.0 
+[00:00:38]   | | +-- term-size@1.2.0 
+[00:00:38]   | | | `-- execa@0.7.0 
+[00:00:38]   | | |   +-- cross-spawn@5.1.0 
+[00:00:38]   | | |   | `-- shebang-command@1.2.0 
+[00:00:38]   | | |   |   `-- shebang-regex@1.0.0 
+[00:00:38]   | | |   +-- get-stream@3.0.0 
+[00:00:38]   | | |   +-- is-stream@1.1.0 
+[00:00:38]   | | |   +-- npm-run-path@2.0.2 
+[00:00:38]   | | |   | `-- path-key@2.0.1 
+[00:00:38]   | | |   +-- p-finally@1.0.0 
+[00:00:38]   | | |   +-- signal-exit@3.0.2 
+[00:00:38]   | | |   `-- strip-eof@1.0.0 
+[00:00:38]   | | `-- widest-line@1.0.0 
+[00:00:38]   | |   `-- string-width@1.0.2 
+[00:00:38]   | |     +-- code-point-at@1.1.0 
+[00:00:38]   | |     +-- is-fullwidth-code-point@1.0.0 
+[00:00:38]   | |     | `-- number-is-nan@1.0.1 
+[00:00:38]   | |     `-- strip-ansi@3.0.1 
+[00:00:38]   | |       `-- ansi-regex@2.1.1 
+[00:00:38]   | +-- chalk@2.1.0 
+[00:00:38]   | | +-- ansi-styles@3.2.0 
+[00:00:38]   | | | `-- color-convert@1.9.0 
+[00:00:38]   | | |   `-- color-name@1.1.3 
+[00:00:38]   | | +-- escape-string-regexp@1.0.5 
+[00:00:38]   | | `-- supports-color@4.4.0 
+[00:00:38]   | |   `-- has-flag@2.0.0 
+[00:00:38]   | +-- configstore@3.1.1 
+[00:00:38]   | | +-- dot-prop@4.2.0 
+[00:00:38]   | | | `-- is-obj@1.0.1 
+[00:00:38]   | | +-- make-dir@1.0.0 
+[00:00:38]   | | | `-- pify@2.3.0 
+[00:00:38]   | | `-- unique-string@1.0.0 
+[00:00:38]   | |   `-- crypto-random-string@1.0.0 
+[00:00:38]   | +-- import-lazy@2.1.0 
+[00:00:38]   | +-- is-installed-globally@0.1.0 
+[00:00:38]   | | +-- global-dirs@0.1.0 
+[00:00:38]   | | `-- is-path-inside@1.0.0 
+[00:00:38]   | +-- is-npm@1.0.0 
+[00:00:38]   | +-- latest-version@3.1.0 
+[00:00:38]   | | `-- package-json@4.0.1 
+[00:00:38]   | |   +-- got@6.7.1 
+[00:00:38]   | |   | +-- create-error-class@3.0.2 
+[00:00:38]   | |   | | `-- capture-stack-trace@1.0.0 
+[00:00:38]   | |   | +-- duplexer3@0.1.4 
+[00:00:38]   | |   | +-- get-stream@3.0.0 
+[00:00:38]   | |   | +-- is-redirect@1.0.0 
+[00:00:38]   | |   | +-- is-retry-allowed@1.1.0 
+[00:00:38]   | |   | +-- is-stream@1.1.0 
+[00:00:38]   | |   | +-- lowercase-keys@1.0.0 
+[00:00:38]   | |   | +-- timed-out@4.0.1 
+[00:00:38]   | |   | +-- unzip-response@2.0.1 
+[00:00:38]   | |   | `-- url-parse-lax@1.0.0 
+[00:00:38]   | |   |   `-- prepend-http@1.0.4 
+[00:00:38]   | |   +-- registry-auth-token@3.3.1 
+[00:00:38]   | |   | `-- rc@1.2.1 
+[00:00:38]   | |   |   +-- deep-extend@0.4.2 
+[00:00:38]   | |   |   +-- minimist@1.2.0 
+[00:00:38]   | |   |   `-- strip-json-comments@2.0.1 
+[00:00:38]   | |   `-- registry-url@3.1.0 
+[00:00:38]   | |     `-- rc@1.2.1 
+[00:00:38]   | |       +-- deep-extend@0.4.2 
+[00:00:38]   | |       +-- minimist@1.2.0 
+[00:00:38]   | |       `-- strip-json-comments@2.0.1 
+[00:00:38]   | +-- semver-diff@2.1.0 
+[00:00:38]   | `-- xdg-basedir@3.0.0 
+[00:00:38]   +-- uuid@3.1.0 
+[00:00:38]   +-- validate-npm-package-license@3.0.1 
+[00:00:38]   | +-- spdx-correct@1.0.2 
+[00:00:38]   | | `-- spdx-license-ids@1.2.2 
+[00:00:38]   | `-- spdx-expression-parse@1.0.4 
+[00:00:38]   +-- validate-npm-package-name@3.0.0 
+[00:00:38]   | `-- builtins@1.0.3 
+[00:00:38]   +-- which@1.3.0 
+[00:00:38]   | `-- isexe@2.0.0 
+[00:00:38]   +-- worker-farm@1.5.1 
+[00:00:38]   | +-- errno@0.1.4 
+[00:00:38]   | | `-- prr@0.0.0 
+[00:00:38]   | `-- xtend@4.0.1 
+[00:00:38]   +-- wrappy@1.0.2 
+[00:00:38]   `-- write-file-atomic@2.1.0 
+[00:00:38] 
+[00:00:38] npm install --force
+[00:00:38] npm WARN using --force I sure hope you know what you are doing.
+[00:01:25] 
+[00:01:25] > fsevents@1.1.3 install C:\projects\polymer-cli\node_modules\fsevents
+[00:01:25] > node install
+[00:01:25] 
+[00:01:25] 
+[00:01:25] > uws@0.14.5 install C:\projects\polymer-cli\node_modules\uws
+[00:01:25] > node-gyp rebuild > build_log.txt 2>&1 || exit 0
+[00:01:25] 
+[00:01:59] 
+[00:01:59] > wd@1.5.0 install C:\projects\polymer-cli\node_modules\wd
+[00:01:59] > node scripts/build-browser-scripts
+[00:01:59] 
+[00:01:59] 
+[00:01:59] > typings-global@1.0.28 postinstall C:\projects\polymer-cli\node_modules\typings-global
+[00:01:59] > node ./dist/install.js
+[00:01:59] 
+[00:01:59] !!!!!!!!!!!
+[00:01:59] typings-global is obsolete! Remove it!
+[00:01:59] Use `yarn add --dev @types/node` instead!
+[00:01:59] !!!!!!!!!!!
+[00:01:59] 
+[00:01:59] > spawn-sync@1.0.15 postinstall C:\projects\polymer-cli\node_modules\spawn-sync
+[00:01:59] > node postinstall
+[00:01:59] 
+[00:01:59] 
+[00:01:59] > sauce-connect-launcher@1.2.3 postinstall C:\projects\polymer-cli\node_modules\sauce-connect-launcher
+[00:01:59] > node scripts/install.js || nodejs scripts/install.js
+[00:01:59] 
+[00:01:59] 
+[00:01:59] > wct-sauce@2.0.0 postinstall C:\projects\polymer-cli\node_modules\wct-sauce
+[00:01:59] > node scripts/postinstall.js
+[00:01:59] 
+[00:02:00] Prefetching the Sauce Connect binary.
+[00:02:00] Missing Sauce Connect local proxy, downloading dependency
+[00:02:00] This will only happen once.
+[00:02:00] Downloading 6.15MB
+[00:02:01] Archive checksum verified.
+[00:02:01] Unzipping C:\projects\polymer-cli\node_modules\sauce-connect-launcher\sc\sc-4.4.11-win32.zip
+[00:02:03] Removing C:\projects\polymer-cli\node_modules\sauce-connect-launcher\sc\sc-4.4.11-win32.zip
+[00:02:03] Sauce Connect downloaded correctly
+[00:02:03] 
+[00:02:03] > wct-local@2.1.0 postinstall C:\projects\polymer-cli\node_modules\wct-local
+[00:02:03] > node scripts/postinstall.js
+[00:02:03] 
+[00:02:03] ----------
+[00:02:03] selenium-standalone installation starting
+[00:02:03] ----------
+[00:02:03] 
+[00:02:03] ---
+[00:02:03] selenium install:
+[00:02:03] from: https://selenium-release.storage.googleapis.com/3.7/selenium-server-standalone-3.7.1.jar
+[00:02:03] to: C:\projects\polymer-cli\node_modules\selenium-standalone\.selenium\selenium-server\3.7.1-server.jar
+[00:02:03] ---
+[00:02:03] chrome install:
+[00:02:03] from: https://chromedriver.storage.googleapis.com/2.33/chromedriver_win32.zip
+[00:02:03] to: C:\projects\polymer-cli\node_modules\selenium-standalone\.selenium\chromedriver\2.33-ia32-chromedriver
+[00:02:03] ---
+[00:02:03] ie install:
+[00:02:03] from: https://selenium-release.storage.googleapis.com/3.7/IEDriverServer_Win32_3.7.0.zip
+[00:02:03] to: C:\projects\polymer-cli\node_modules\selenium-standalone\.selenium\iedriver\3.7.0-ia32-IEDriverServer.exe
+[00:02:03] ---
+[00:02:03] firefox install:
+[00:02:03] from: https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-win32.zip
+[00:02:03] to: C:\projects\polymer-cli\node_modules\selenium-standalone\.selenium\geckodriver\0.19.1-ia32-geckodriver
+[00:02:03] ---
+[00:02:03] edge install:
+[00:02:03] from: https://download.microsoft.com/download/D/4/1/D417998A-58EE-4EFE-A7CC-39EF9E020768/MicrosoftWebDriver.exe
+[00:02:03] to: C:\projects\polymer-cli\node_modules\selenium-standalone\.selenium\edgedriver\16299-MicrosoftEdgeDriver.exe
+[00:02:04] 
+[00:02:04] 
+[00:02:04] -----
+[00:02:04] selenium-standalone installation finished
+[00:02:04] -----
+[00:02:06] added 1631 packages in 87.682s
+[00:02:06] node --version
+[00:02:06] v6.9.1
+[00:02:07] npm --version
+[00:02:07] 5.6.0
+[00:02:07] npm test
+[00:02:08] 
+[00:02:08] > polymer-cli@1.6.0 test C:\projects\polymer-cli
+[00:02:08] > gulp test lint
+[00:02:08] 
+[00:02:10] [01:36:45] Using gulpfile C:\projects\polymer-cli\gulpfile.js
+[00:02:10] [01:36:45] Starting 'build'...
+[00:02:10] [01:36:45] Starting 'clean'...
+[00:02:10] [01:36:45] Starting 'tslint'...
+[00:02:10] [01:36:45] Finished 'clean' after 9.18 ms
+[00:02:10] [01:36:45] Starting 'compile'...
+[00:02:15] [01:36:50] Finished 'tslint' after 4.78 s
+[00:02:15] [01:36:50] Finished 'compile' after 4.95 s
+[00:02:15] [01:36:50] Finished 'build' after 4.96 s
+[00:02:15] [01:36:50] Starting 'test'...
+[00:02:15] [01:36:50] Starting 'depcheck'...
+[00:02:19] [01:36:54] Finished 'depcheck' after 3.7 s
+[00:02:19] [01:36:54] Starting 'lint'...
+[00:02:19] [01:36:54] Finished 'lint' after 6.6 μs
+[00:02:22] 
+[00:02:22] 
+[00:02:22]   args
+[00:02:22]     mergeArguments
+[00:02:22]       √ merges argument lists
+[00:02:22]     merging global and command arguments
+[00:02:22]       √ global and command arguments do not conflict
+[00:02:22] 
+[00:02:22]   load-config
+[00:02:22]     loadServiceWorkerConfig()
+[00:02:22]       √ should parse the given js file
+[00:02:22] 
+[00:02:22]   optimize-streams
+[00:02:22]     √ compile js (63ms)
+[00:02:22]     √ does not compile webcomponents.js files (windows)
+[00:02:22]     √ does not compile webcomponents.js files (unix)
+[00:02:22]     √ minify js (47ms)
+[00:02:22]     √ minify js (es6)
+[00:02:22]     √ minify html
+[00:02:22]     √ minify css
+[00:02:22]     √ minify css (inlined)
+[00:02:22] 
+[00:02:22]   The general CLI
+[00:02:22] 
+[00:02:22] 
+[00:02:22]    /\˜˜/   /\˜˜/\
+[00:02:22]   /__\/   /__\/__\    Polymer-CLI
+[00:02:22]  /\  /   /\  /\  /\
+[00:02:22] /__\/   /__\/  \/__\  The multi-tool for Polymer projects
+[00:02:22] \  /\  /\  /   /\  /
+[00:02:22]  \/__\/__\/   /__\/   Usage: `polymer <command> [options ...]`
+[00:02:22]   \  /\  /   /\  /
+[00:02:22]    \/__\/   /__\/
+[00:02:22] 
+[00:02:22] 
+[00:02:22] Available Commands
+[00:02:22] 
+[00:02:22]   analyze   Writes analysis metadata in JSON format to standard out       
+[00:02:22]   build     Builds an application-style project                           
+[00:02:22]   help      Shows this help message, or help for a specific command       
+[00:02:22]   init      Initializes a Polymer project                                 
+[00:02:22]   install   installs Bower dependencies, optionally installing "variants" 
+[00:02:22]   lint      Identifies potential errors in your code.                     
+[00:02:22]   serve     Runs the polyserve development server                         
+[00:02:22]   test      Runs web-component-tester                                     
+[00:02:22] 
+[00:02:22] Global Options
+[00:02:22] 
+[00:02:22]   --env type                      The environment to use to specialize certain  
+[00:02:22]                                   commands, like build                          
+[00:02:22]   --entrypoint                    The main HTML file that will be requested for 
+[00:02:22]                                   all routes.                                   
+[00:02:22]   --shell string                  The app shell HTML import                     
+[00:02:22]   --fragment string[]             HTML imports that are loaded on-demand.       
+[00:02:22]   --root string                   The root directory of your project. Defaults  
+[00:02:22]                                   to the current working directory.             
+[00:02:22]   --sources string[]              Glob(s) that match your project source files. 
+[00:02:22]                                   Defaults to `src/**/*`.                       
+[00:02:22]   --extra-dependencies string[]   Glob(s) that match any additional             
+[00:02:22]                                   dependencies not caught by the analyzer to    
+[00:02:22]                                   include with your build.                      
+[00:02:22]   -v, --verbose                   turn on debugging output                      
+[00:02:22]   -h, --help                      print out helpful usage information           
+[00:02:22]   -q, --quiet                     silence output                                
+[00:02:22] 
+[00:02:22] Run `polymer help <command>` for help with a specific command.
+[00:02:22] 
+[00:02:22]     √ displays general help when no command is called
+[00:02:22] 
+[00:02:22] 
+[00:02:22]    /\˜˜/   /\˜˜/\
+[00:02:22]   /__\/   /__\/__\    Polymer-CLI
+[00:02:22]  /\  /   /\  /\  /\
+[00:02:22] /__\/   /__\/  \/__\  The multi-tool for Polymer projects
+[00:02:22] \  /\  /\  /   /\  /
+[00:02:22]  \/__\/__\/   /__\/   Usage: `polymer <command> [options ...]`
+[00:02:22]   \  /\  /   /\  /
+[00:02:22]    \/__\/   /__\/
+[00:02:22] 
+[00:02:22] 
+[00:02:22] Available Commands
+[00:02:22] 
+[00:02:22]   analyze   Writes analysis metadata in JSON format to standard out       
+[00:02:22]   build     Builds an application-style project                           
+[00:02:22]   help      Shows this help message, or help for a specific command       
+[00:02:22]   init      Initializes a Polymer project                                 
+[00:02:22]   install   installs Bower dependencies, optionally installing "variants" 
+[00:02:22]   lint      Identifies potential errors in your code.                     
+[00:02:22]   serve     Runs the polyserve development server                         
+[00:02:22]   test      Runs web-component-tester                                     
+[00:02:22] 
+[00:02:22] Global Options
+[00:02:22] 
+[00:02:22]   --env type                      The environment to use to specialize certain  
+[00:02:22]                                   commands, like build                          
+[00:02:22]   --entrypoint                    The main HTML file that will be requested for 
+[00:02:22]                                   all routes.                                   
+[00:02:22]   --shell string                  The app shell HTML import                     
+[00:02:22]   --fragment string[]             HTML imports that are loaded on-demand.       
+[00:02:22]   --root string                   The root directory of your project. Defaults  
+[00:02:22]                                   to the current working directory.             
+[00:02:22]   --sources string[]              Glob(s) that match your project source files. 
+[00:02:22]                                   Defaults to `src/**/*`.                       
+[00:02:22]   --extra-dependencies string[]   Glob(s) that match any additional             
+[00:02:22]                                   dependencies not caught by the analyzer to    
+[00:02:22]                                   include with your build.                      
+[00:02:22]   -v, --verbose                   turn on debugging output                      
+[00:02:22]   -h, --help                      print out helpful usage information           
+[00:02:22]   -q, --quiet                     silence output                                
+[00:02:22] 
+[00:02:22] Run `polymer help <command>` for help with a specific command.
+[00:02:22] 
+[00:02:22]     √ displays general help when no command is called with the --help flag
+[00:02:22] warn:    'THIS_IS_SOME_UNKNOWN_COMMAND' is not an available command.
+[00:02:22] error:   'THIS_IS_SOME_UNKNOWN_COMMAND' is not an available command.
+[00:02:22] 
+[00:02:22] 
+[00:02:22]    /\˜˜/   /\˜˜/\
+[00:02:22]   /__\/   /__\/__\    Polymer-CLI
+[00:02:22]  /\  /   /\  /\  /\
+[00:02:22] /__\/   /__\/  \/__\  The multi-tool for Polymer projects
+[00:02:22] \  /\  /\  /   /\  /
+[00:02:22]  \/__\/__\/   /__\/   Usage: `polymer <command> [options ...]`
+[00:02:22]   \  /\  /   /\  /
+[00:02:22]    \/__\/   /__\/
+[00:02:22] 
+[00:02:22] 
+[00:02:22] Available Commands
+[00:02:22] 
+[00:02:22]   analyze   Writes analysis metadata in JSON format to standard out       
+[00:02:22]   build     Builds an application-style project                           
+[00:02:22]   help      Shows this help message, or help for a specific command       
+[00:02:22]   init      Initializes a Polymer project                                 
+[00:02:22]   install   installs Bower dependencies, optionally installing "variants" 
+[00:02:22]   lint      Identifies potential errors in your code.                     
+[00:02:22]   serve     Runs the polyserve development server                         
+[00:02:22]   test      Runs web-component-tester                                     
+[00:02:22] 
+[00:02:22] Global Options
+[00:02:22] 
+[00:02:22]   --env type                      The environment to use to specialize certain  
+[00:02:22]                                   commands, like build                          
+[00:02:22]   --entrypoint                    The main HTML file that will be requested for 
+[00:02:22]                                   all routes.                                   
+[00:02:22]   --shell string                  The app shell HTML import                     
+[00:02:22]   --fragment string[]             HTML imports that are loaded on-demand.       
+[00:02:22]   --root string                   The root directory of your project. Defaults  
+[00:02:22]                                   to the current working directory.             
+[00:02:22]   --sources string[]              Glob(s) that match your project source files. 
+[00:02:22]                                   Defaults to `src/**/*`.                       
+[00:02:22]   --extra-dependencies string[]   Glob(s) that match any additional             
+[00:02:22]                                   dependencies not caught by the analyzer to    
+[00:02:22]                                   include with your build.                      
+[00:02:22]   -v, --verbose                   turn on debugging output                      
+[00:02:22]   -h, --help                      print out helpful usage information           
+[00:02:22]   -q, --quiet                     silence output                                
+[00:02:22] 
+[00:02:22] Run `polymer help <command>` for help with a specific command.
+[00:02:22] 
+[00:02:22]     √ displays general help when unknown command is called
+[00:02:22] 
+[00:02:22] polymer build
+[00:02:22] 
+[00:02:22]   Builds an application-style project 
+[00:02:22] 
+[00:02:22] Command Options
+[00:02:22] 
+[00:02:22]   --name string                 The build name. Defaults to "default".          
+[00:02:22]   --preset string               A preset configuration to base your build on.   
+[00:02:22]                                 User-defined options will override preset       
+[00:02:22]                                 options. Optional. Available presets: "es5-     
+[00:02:22]                                 bundled", "es6-bundled", "es6-unbundled".       
+[00:02:22]   --js-compile                  Compile ES2015 JavaScript features down to ES5  
+[00:02:22]                                 for older browsers.                             
+[00:02:22]   --js-minify                   Minify inlined and external JavaScript.         
+[00:02:22]   --css-minify                  Minify inlined and external CSS.                
+[00:02:22]   --html-minify                 Minify HTML by removing comments and            
+[00:02:22]                                 whitespace.                                     
+[00:02:22]   --bundle                      Combine build source and dependency files       
+[00:02:22]                                 together into a minimum set of bundles. Useful  
+[00:02:22]                                 for reducing the number of requests needed to   
+[00:02:22]                                 serve your application.                         
+[00:02:22]   --add-service-worker          Generate a service worker for your application  
+[00:02:22]                                 to cache all files and assets on the client.    
+[00:02:22]   --add-push-manifest           Generate a push manifest for your application   
+[00:02:22]                                 for http2push-enabled servers to read.          
+[00:02:22]   --sw-precache-config string   Path to a file that exports configuration       
+[00:02:22]                                 options for the generated service worker. These 
+[00:02:22]                                 options match those supported by the sw-        
+[00:02:22]                                 precache library. See                           
+[00:02:22]                                 https://github.com/GoogleChrome/sw-             
+[00:02:22]                                 precache#options-parameter for a list of all    
+[00:02:22]                                 supported options.                              
+[00:02:22]   --insert-prefetch-links       Add dependency prefetching by inserting `<link  
+[00:02:22]                                 rel="prefetch">` tags into entrypoint and       
+[00:02:22]                                 `<link rel="import">` tags into fragments and   
+[00:02:22]                                 shell for all dependencies.                     
+[00:02:22]   --base-path string            Updates the <base> tag if found in the          
+[00:02:22]                                 entrypoint document.                            
+[00:02:22] 
+[00:02:22] Global Options
+[00:02:22] 
+[00:02:22]   --env type                      The environment to use to specialize certain  
+[00:02:22]                                   commands, like build                          
+[00:02:22]   --entrypoint                    The main HTML file that will be requested for 
+[00:02:22]                                   all routes.                                   
+[00:02:22]   --shell string                  The app shell HTML import                     
+[00:02:22]   --fragment string[]             HTML imports that are loaded on-demand.       
+[00:02:22]   --root string                   The root directory of your project. Defaults  
+[00:02:22]                                   to the current working directory.             
+[00:02:22]   --sources string[]              Glob(s) that match your project source files. 
+[00:02:22]                                   Defaults to `src/**/*`.                       
+[00:02:22]   --extra-dependencies string[]   Glob(s) that match any additional             
+[00:02:22]                                   dependencies not caught by the analyzer to    
+[00:02:22]                                   include with your build.                      
+[00:02:22]   -v, --verbose                   turn on debugging output                      
+[00:02:22]   -h, --help                      print out helpful usage information           
+[00:02:22]   -q, --quiet                     silence output                                
+[00:02:22] 
+[00:02:22]     √ displays command help when called with the --help flag
+[00:02:22] 
+[00:02:22] polymer init
+[00:02:22] 
+[00:02:22]   Initializes a Polymer project 
+[00:02:22] 
+[00:02:22] Command Options
+[00:02:22] 
+[00:02:22]   --name string   The template name to use to initialize the project 
+[00:02:22] 
+[00:02:22] Global Options
+[00:02:22] 
+[00:02:22]   --env type                      The environment to use to specialize certain  
+[00:02:22]                                   commands, like build                          
+[00:02:22]   --entrypoint                    The main HTML file that will be requested for 
+[00:02:22]                                   all routes.                                   
+[00:02:22]   --shell string                  The app shell HTML import                     
+[00:02:22]   --fragment string[]             HTML imports that are loaded on-demand.       
+[00:02:22]   --root string                   The root directory of your project. Defaults  
+[00:02:22]                                   to the current working directory.             
+[00:02:22]   --sources string[]              Glob(s) that match your project source files. 
+[00:02:22]                                   Defaults to `src/**/*`.                       
+[00:02:22]   --extra-dependencies string[]   Glob(s) that match any additional             
+[00:02:22]                                   dependencies not caught by the analyzer to    
+[00:02:22]                                   include with your build.                      
+[00:02:22]   -v, --verbose                   turn on debugging output                      
+[00:02:22]   -h, --help                      print out helpful usage information           
+[00:02:22]   -q, --quiet                     silence output                                
+[00:02:22] 
+[00:02:22]     √ displays command help when called with the -h flag
+[00:02:22] 1.6.0
+[00:02:22]     √ displays version information when called with the --version flag
+[00:02:22] debug:   got args: 
+[00:02:22] { args: [ 'help', '--verbose' ] }
+[00:02:22] debug:   no polymer.json file found, no config loaded
+[00:02:22] debug:   adding command analyze
+[00:02:22] debug:   adding command build
+[00:02:22] debug:   adding command help
+[00:02:22] debug:   adding command init
+[00:02:22] debug:   adding command install
+[00:02:22] debug:   adding alias i
+[00:02:22] debug:   adding command lint
+[00:02:22] debug:   adding command serve
+[00:02:22] debug:   adding command test
+[00:02:22]     √ sets the appropriate log levels when the --verbose & --quiet flags are used
+[00:02:22]     √ read config from flags
+[00:02:22]     √ flags override default config values
+[00:02:22] 
+[00:02:22]   help
+[00:02:22] 
+[00:02:22] polymer build
+[00:02:22] 
+[00:02:22]   Builds an application-style project 
+[00:02:22] 
+[00:02:22] Command Options
+[00:02:22] 
+[00:02:22]   --name string                 The build name. Defaults to "default".          
+[00:02:22]   --preset string               A preset configuration to base your build on.   
+[00:02:22]                                 User-defined options will override preset       
+[00:02:22]                                 options. Optional. Available presets: "es5-     
+[00:02:22]                                 bundled", "es6-bundled", "es6-unbundled".       
+[00:02:22]   --js-compile                  Compile ES2015 JavaScript features down to ES5  
+[00:02:22]                                 for older browsers.                             
+[00:02:22]   --js-minify                   Minify inlined and external JavaScript.         
+[00:02:22]   --css-minify                  Minify inlined and external CSS.                
+[00:02:22]   --html-minify                 Minify HTML by removing comments and            
+[00:02:22]                                 whitespace.                                     
+[00:02:22]   --bundle                      Combine build source and dependency files       
+[00:02:22]                                 together into a minimum set of bundles. Useful  
+[00:02:22]                                 for reducing the number of requests needed to   
+[00:02:22]                                 serve your application.                         
+[00:02:22]   --add-service-worker          Generate a service worker for your application  
+[00:02:22]                                 to cache all files and assets on the client.    
+[00:02:22]   --add-push-manifest           Generate a push manifest for your application   
+[00:02:22]                                 for http2push-enabled servers to read.          
+[00:02:22]   --sw-precache-config string   Path to a file that exports configuration       
+[00:02:22]                                 options for the generated service worker. These 
+[00:02:22]                                 options match those supported by the sw-        
+[00:02:22]                                 precache library. See                           
+[00:02:22]                                 https://github.com/GoogleChrome/sw-             
+[00:02:22]                                 precache#options-parameter for a list of all    
+[00:02:22]                                 supported options.                              
+[00:02:22]   --insert-prefetch-links       Add dependency prefetching by inserting `<link  
+[00:02:22]                                 rel="prefetch">` tags into entrypoint and       
+[00:02:22]                                 `<link rel="import">` tags into fragments and   
+[00:02:22]                                 shell for all dependencies.                     
+[00:02:22]   --base-path string            Updates the <base> tag if found in the          
+[00:02:22]                                 entrypoint document.                            
+[00:02:22] 
+[00:02:22] Global Options
+[00:02:22] 
+[00:02:22]   --env type                      The environment to use to specialize certain  
+[00:02:22]                                   commands, like build                          
+[00:02:22]   --entrypoint                    The main HTML file that will be requested for 
+[00:02:22]                                   all routes.                                   
+[00:02:22]   --shell string                  The app shell HTML import                     
+[00:02:22]   --fragment string[]             HTML imports that are loaded on-demand.       
+[00:02:22]   --root string                   The root directory of your project. Defaults  
+[00:02:22]                                   to the current working directory.             
+[00:02:22]   --sources string[]              Glob(s) that match your project source files. 
+[00:02:22]                                   Defaults to `src/**/*`.                       
+[00:02:22]   --extra-dependencies string[]   Glob(s) that match any additional             
+[00:02:22]                                   dependencies not caught by the analyzer to    
+[00:02:22]                                   include with your build.                      
+[00:02:22]   -v, --verbose                   turn on debugging output                      
+[00:02:22]   -h, --help                      print out helpful usage information           
+[00:02:22]   -q, --quiet                     silence output                                
+[00:02:22] 
+[00:02:22]     √ displays help for a specific command when called with that command
+[00:02:22] 
+[00:02:22] 
+[00:02:22]    /\˜˜/   /\˜˜/\
+[00:02:22]   /__\/   /__\/__\    Polymer-CLI
+[00:02:22]  /\  /   /\  /\  /\
+[00:02:22] /__\/   /__\/  \/__\  The multi-tool for Polymer projects
+[00:02:22] \  /\  /\  /   /\  /
+[00:02:22]  \/__\/__\/   /__\/   Usage: `polymer <command> [options ...]`
+[00:02:22]   \  /\  /   /\  /
+[00:02:22]    \/__\/   /__\/
+[00:02:22] 
+[00:02:22] 
+[00:02:22] Available Commands
+[00:02:22] 
+[00:02:22]   analyze   Writes analysis metadata in JSON format to standard out       
+[00:02:22]   build     Builds an application-style project                           
+[00:02:22]   help      Shows this help message, or help for a specific command       
+[00:02:22]   init      Initializes a Polymer project                                 
+[00:02:22]   install   installs Bower dependencies, optionally installing "variants" 
+[00:02:22]   lint      Identifies potential errors in your code.                     
+[00:02:22]   serve     Runs the polyserve development server                         
+[00:02:22]   test      Runs web-component-tester                                     
+[00:02:22] 
+[00:02:22] Global Options
+[00:02:22] 
+[00:02:22]   --env type                      The environment to use to specialize certain  
+[00:02:22]                                   commands, like build                          
+[00:02:22]   --entrypoint                    The main HTML file that will be requested for 
+[00:02:22]                                   all routes.                                   
+[00:02:22]   --shell string                  The app shell HTML import                     
+[00:02:22]   --fragment string[]             HTML imports that are loaded on-demand.       
+[00:02:22]   --root string                   The root directory of your project. Defaults  
+[00:02:22]                                   to the current working directory.             
+[00:02:22]   --sources string[]              Glob(s) that match your project source files. 
+[00:02:22]                                   Defaults to `src/**/*`.                       
+[00:02:22]   --extra-dependencies string[]   Glob(s) that match any additional             
+[00:02:22]                                   dependencies not caught by the analyzer to    
+[00:02:22]                                   include with your build.                      
+[00:02:22]   -v, --verbose                   turn on debugging output                      
+[00:02:22]   -h, --help                      print out helpful usage information           
+[00:02:22]   -q, --quiet                     silence output                                
+[00:02:22] 
+[00:02:22] Run `polymer help <command>` for help with a specific command.
+[00:02:22] 
+[00:02:22]     √ displays general help when the help command is called with no arguments
+[00:02:22] 
+[00:02:22]   init
+[00:02:22]     √ runs the given generator when name argument is provided
+[00:02:22]     √ prompts the user to select a generator when no argument is provided
+[00:02:22] 
+[00:02:22]   install
+[00:02:22]     √ runs using full command name
+[00:02:22]     √ runs using aliased command name
+[00:02:22]     √ runs using aliased command name with argument
+[00:02:22] 
+[00:02:22]   github/github
+[00:02:22]     tokenFromFile()
+[00:02:22]       - returns a token from file if that file exists
+[00:02:22]       - returns null if token file cannot be read
+[00:02:22]     extractReleaseTarball()
+[00:02:22]       √ extracts a tarball from a github tarball url
+[00:02:22]       √ rejects when Github returns a 404 response status code (47ms)
+[00:02:22]     removeUnwantedFiles()
+[00:02:22]       √ removes correct files
+[00:02:22]     getSemverRelease()
+[00:02:22]       √ calls the github API with correct params
+[00:02:22]       √ resolves with latest semver release that matches the range: *
+[00:02:22]       √ resolves with latest semver release that matches the range: ^v1.0.0
+[00:02:22]       √ resolves with latest semver release that matches the range: ^v2.0.0
+[00:02:22]       √ rejects with an error if no matching releases are found
+[00:02:22] 
+[00:02:22]   init/application
+[00:02:23]     √ creates expected 1.x files while passed the 1.x template name (94ms)
+[00:02:23]     √ creates expected 2.x files while passed the 2.x template name (78ms)
+[00:02:23]     √ index.html description meta tag matches description prompt (1.x) (47ms)
+[00:02:23]     √ index.html description meta tag contains default without prompt (1.x) (47ms)
+[00:02:23]     √ index.html description meta tag matches description prompt (2.x) (62ms)
+[00:02:23]     √ index.html description meta tag contains default without prompt (2.x)
+[00:02:23]     √ ignoring filenames with dangling underscores when generating templates (47ms)
+[00:02:23]     √ works when package.json with no name is present (64ms)
+[00:02:23] 
+[00:02:23]   init/element
+[00:02:23]     √ creates expected 1.x files while passed the 1.x template name (47ms)
+[00:02:23]     √ creates expected 2.x files while passed the 2.x template name (47ms)
+[00:02:23]     √ ignoring filenames with dangling underscores when generating templates (47ms)
+[00:02:23]     √ works when package.json with no name is present
+[00:02:23] 
+[00:02:23]   init/github
+[00:02:23]     createGithubGenerator()
+[00:02:23]       √ returns a generator that untars the latest release when no semver range is given (47ms)
+[00:02:23]       √ returns a generator that untars the latest matching release when a semver range is given (46ms)
+[00:02:23] 
+[00:02:23]   init
+[00:02:23]     runGenerator
+[00:02:23]       √ runs the given generator
+[00:02:23] error:   Template UNKNOWN-GENERATOR not found
+[00:02:23]       √ fails if an unknown generator is requested
+[00:02:23] error:   Template UNKNOWN-GENERATOR not found
+[00:02:23]       √ works with the default yeoman environment
+[00:02:23]     promptGeneratorSelection
+[00:02:23] error:   Template TEST not found
+[00:02:23]       √ works with the default yeoman environment
+[00:02:23] error:   Template TEST not found
+[00:02:23]       √ prompts with a list to get generatorName property from user
+[00:02:23] error:   Template TEST not found
+[00:02:23]       √ prompts with a list of all registered generators
+[00:02:23] error:   Template TEST not found
+[00:02:23]       √ includes user-provided generators in the list when properly installed/registered
+[00:02:23] error:   Template TEST not found
+[00:02:23]       √ prompts the user with a list
+[00:02:23] 
+[00:02:23]   install
+[00:02:23]     _mergeJson
+[00:02:23]       √ overwrites primitives and arrays
+[00:02:23]       √ merges nested objects
+[00:02:23] 
+[00:02:23] 
+[00:02:23]   59 passing (1s)
+[00:02:23]   2 pending
+[00:02:23] 
+[00:02:23] [01:36:59] Finished 'test' after 8.33 s
+[00:02:24] Build success
